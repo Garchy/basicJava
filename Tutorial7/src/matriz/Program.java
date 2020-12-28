@@ -20,7 +20,7 @@ public class Program {
 			}
 		}
 		
-		System.out.println("\n Matriz: ");
+		System.out.println("\n  Matriz: ");
 		for (int i = 0; i < lin; i++) {
 			for (int j = 0; j < col; j++) {
 				System.out.printf("%3d", mat[i][j]);
