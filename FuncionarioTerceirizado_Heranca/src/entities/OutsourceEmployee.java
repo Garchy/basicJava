@@ -23,6 +23,6 @@ public class OutsourceEmployee extends Employee {
 	
 	@Override
 	public Double payment() {
-		return super.payment() + additionalCharge * 1.1; //Funcionario terceirizado recebe um bonus de 100%
+		return super.payment() + additionalCharge * 1.1; //Funcionario terceirizado recebe um bonus de 110%
 	}
 }
